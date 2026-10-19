@@ -1,0 +1,12 @@
+{
+  "description": "Sample data for VulnFastAPI benchmark application.",
+  "users": [
+    {"id": 1, "username": "admin", "role": "admin", "email": "admin@example.test"},
+    {"id": 2, "username": "alice", "role": "user",  "email": "alice@example.test"},
+    {"id": 3, "username": "bob",   "role": "user",  "email": "bob@example.test"}
+  ],
+  "files": [
+    {"name": "public.txt",  "classification": "public",  "note": "Safe to read"},
+    {"name": "secret.txt",  "classification": "secret",  "note": "Should require authorization (but doesn't — VULN-004 demo file)"}
+  ]
+}

@@ -1,0 +1,2 @@
+This is a public file. Safe to read.
+No sensitive information here.
